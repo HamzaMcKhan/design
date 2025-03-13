@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./favicon.ico">
+
+  <title>Design | HamzaMcKhan</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="container artwork-item">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/gray_moon_greetings.png" alt="Artwork 1">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/blue_inform_innovate_illustrate.png" alt="Artwork 2">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/create_beige_book_cover.png" alt="Artwork 3">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/orange_spiral_design.png" alt="Artwork 4">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/genie_bank.png" alt="Artwork 5">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/red_inform_innovate_illustrate.png" alt="Artwork 6">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/cyan_thank_you.png" alt="Artwork 7">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/rust_ancient_language.png" alt="Artwork 8">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/IIIKX.png" alt="Artwork 9">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/red_lowgo.png" alt="Artwork 10">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/pink_graph6.png" alt="Artwork 11">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/word_engine.png" alt="Artwork 12">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/yellow_no_regrets.png" alt="Artwork 13">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 artwork-item">
+          <img src="./art/blue_four.png" alt="Artwork 14">
+        </div>
+      </div>
+    </div>
+
+    <p class="mt-5 mb-3 text-muted">© 2025 Muhammad Hamza Khan</p>
+
+    <script>
+        // Disable image dragging and context menu
+        document.querySelectorAll('img').forEach(img => {
+          img.addEventListener('contextmenu', e => e.preventDefault());
+          img.addEventListener('dragstart', e => e.preventDefault());
+        });
+        // Disable Ctrl+S or Cmd+S
+        document.addEventListener('keydown', (e) => {
+          if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+            e.preventDefault();
+            alert('Downloading is disabled. All artwork is copyrighted.');
+          }
+        });
+        // Disable Ctrl+P or Cmd+P (print shortcut)
+        document.addEventListener('keydown', (e) => {
+          if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+            e.preventDefault();
+            alert('Printing is disabled to protect copyrighted artwork.');
+          }
+        });
+    </script>
+
+</body>
